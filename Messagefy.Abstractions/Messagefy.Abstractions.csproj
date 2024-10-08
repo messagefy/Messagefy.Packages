@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latestmajor</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.1</Version>
+    <PackageId>Messagefy.Abstractions</PackageId>
+
+    <Authors>jecacs</Authors>
+    <Description>internal abstractions library</Description>
+    <PackageProjectUrl>https://github.com/messagefy/Messagefy.Pakages.Grpc</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageTags>int</PackageTags>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>
